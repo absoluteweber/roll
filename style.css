@@ -1,0 +1,74 @@
+.image {
+    width: 300px;
+    height: auto;
+}
+.main_container {
+    display: flex;
+    margin: 30px 100px;
+}
+.text_container {
+    margin-left: 100px;
+    width: 300px;
+}
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+    font-size: 22px;
+    color: black;
+    text-shadow: 
+    2px 2px 4px white, /* Основная обводка */
+    -2px -2px 4px white, /* Тень справа и снизу */
+    2px -2px 4px white, /* Тень слева и снизу */
+    -2px 2px 4px white; /* Тень справа и сверху */
+}
+.center_main {
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 600;
+    font-size: 50px;
+}
+body {
+    background-image: url(Screen-Shot-2020-07-15-at-11.24.37-AM.webp);
+    background-size: cover;
+}
+.button_start {
+    margin-left: 100px;
+    border-radius: 70px;
+    width: 300px;
+    height: auto;
+    background-color: black;
+}
+.start {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+    text-shadow: 
+    2px 2px 4px white, /* Основная обводка */
+    -2px -2px 4px white, /* Тень справа и снизу */
+    2px -2px 4px white, /* Тень слева и снизу */
+    -2px 2px 4px white; /* Тень справа и сверху */
+
+}
+
+.button_end {
+    margin-left: 400px;
+    height: auto;
+    width: 30px;
+    border-radius: 7px;
+    background-color: black;
+}
+
+.off {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 
+    2px 2px 4px white, /* Основная обводка */
+    -2px -2px 4px white, /* Тень справа и снизу */
+    2px -2px 4px white, /* Тень слева и снизу */
+    -2px 2px 4px white; /* Тень справа и сверху */
+
+}
+.buttons {
+    display: block;
+}

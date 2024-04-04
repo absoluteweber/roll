@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main_section">
+        <center class="center_main">
+            Rick Roll
+        </center>
+        <div class="main_container">
+            <div class="image_container">
+                <img src="rickroll-roll.gif" class="image">
+            </div>
+            <div class="text_container">
+                <p class="text">
+                    Never gonna give you up,
+Never gonna let you down,
+Never gonna run around and desert you,
+                </p>
+                <p class="text">
+                    Never gonna make you cry,
+Never gonna say goodbye,
+Never gonna tell a lie and hurt you
+                </p>
+            </div>
+        </div>
+        <audio id="backgroundMusic" loop>
+            <source src="Rick Roll (Different link + no ads).mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает воспроизведение аудио.
+          </audio>
+          <div class="buttons">
+          <button class="button_start" onclick="playBackgroundMusic()">
+            <p class="start">
+                click
+            </p>
+        </button>
+          <button class="button_end" onclick="pauseBackgroundMusic()">
+            <p class="off">
+                off
+            </p>
+        </button>
+            </div>
+    </section>
+    <script>
+        var backgroundMusic = document.getElementById("backgroundMusic");
+
+        function playBackgroundMusic() {
+        backgroundMusic.play();
+        }
+
+        function pauseBackgroundMusic() {
+        backgroundMusic.pause();
+        }
+    </script>
+</body>
+</html>
